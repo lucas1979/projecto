@@ -1,0 +1,1881 @@
+*{
+   margin:0px;
+   border:0px;
+   padding:0px;
+  }
+
+body{
+	letter-spacing: 1px;
+}
+
+.bodyIndexREg {
+	background-image: url('../img/a1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	letter-spacing: 1px;
+	background-attachment: fixed;
+}
+
+.general{
+		width: 960px;
+		height:auto;
+		margin:50px auto 0px auto;
+		position: relative;
+		z-index: 100;
+		}
+
+.footer{
+		width: 100%;
+		height: 90px;
+		background-image: url('../img/fondoindex.png');
+		opacity: 0.8;
+
+		margin-bottom: 0px;
+		position: fixed;
+		bottom: 0px;
+		z-index: 100;
+		}
+
+/*------------------------HEADER-----*/
+
+h1{
+	font-size: 50px;
+}
+
+.alerta{
+		color:black;
+		width: 500px;
+		height: 80px;
+		background-color: red;
+		}
+
+.cabecera{
+		  width:100%;
+		  height:20px;
+		  font-family: Tahoma,verdana,arial;
+		  color:white;
+		  position: relative;
+		  top:0px;
+ 		  position: relative;
+		  z-index: 10;
+  		}
+
+
+.divbotoncerrarsec{
+					width: 960px;
+					height: 20px;
+					color: #333333;
+					padding-right: 0px;
+					margin:0px auto 0px auto;
+					position: relative;
+					top:5px;
+				  }
+
+#botoncerrarsec{
+				width: 29px;
+				height: 30px;
+				float: left;
+				opacity: 0.8;
+				background-image: url('../img/x.jpg');
+				background-repeat: no-repeat;
+				margin-left: 920px;
+				position: relative;
+				top:-5px;
+				}
+
+/*-----  barra de botones  --- ----*/
+.barrabotones{
+				width:960px;
+				height: 310px;
+				color:white;	
+				background-color: #00ccff;
+				margin:10px auto 0px auto;				
+				position: relative;
+				z-index: 5;
+			}
+
+.boxbotones{
+			width:690px;
+			height: 310px;
+			margin:0px auto 0px auto;
+			position: relative;
+			left: 10px;
+			}
+
+#boton{
+			
+		width: 162px;
+		height:120px;
+		position: relative;
+		list-style-type: none;
+		float: left;
+		font-family:Tahoma,verdana,arial;
+		color: white;
+		font-size: 13px;
+		text-align: center;	
+		letter-spacing: 2px;
+		margin: 0px auto 0px auto;	
+		}
+
+/*---ICONOS IMG BOTONES ENLACE--*/
+#imgenlaces{
+			width: 60px;
+			height: 60px;
+			margin: 0px auto 0px auto;
+			position: relative;
+			top: 15px;
+			}
+
+
+/*---texto de los botones de los enlaces--*/
+#textenlaces{
+			position: relative;
+			top:20px;
+			left: 0px;
+			color: white;
+			font-size: 14px;
+			text-align: center;
+			}
+
+#textenlaces2{
+			position: relative;
+			top:20px;
+			left: 0px;
+			color: white;
+			font-size: 14px;
+			text-align: center;
+			}
+
+
+/*------------------------------------------------------------------------------pagina  INDEX ------------*/
+
+/*  texto de bienvenido cuando se registra */
+.textobienvenido{
+				 width: 500px;
+				 height: 80px;
+				 
+				 opacity: 0.8;
+				 font-family: 'Raleway', sans-serif;
+				 color: #333333;
+				 position: relative;
+				 left:600px;
+				 top:120px;
+				}
+
+.textobienvenido2{
+				width: 100%;
+				height: 20px;
+				background-color:#DF013A;
+				font-family: 'Raleway', sans-serif;
+				color: pink;
+				font-size: 18px;
+				}
+
+.divregistroget{
+				 width: 600px;
+				 height: 140px;
+				
+				  position: relative;
+				  top:160px;
+				  left: -290px;
+				  margin: 0px auto 0px auto;
+				}
+
+/*---------------------------*/
+
+.cabeceraindex{
+			  width:100%;
+			  height:150px;
+		 	  font-family: Tahoma,verdana,arial;
+			  color:white;
+			  position: relative;
+			  top:0px;
+			  z-index: 2;
+		  	 }
+
+
+/* titulo h1 del index del texto explicativo --*/
+#h1index{							
+		  width:480px;
+		height: 45px;
+		font-family: 'Raleway', sans-serif;
+		color:white;
+		font-size: 40px;
+		font-weight: 5px;
+		margin:10px 10px 30px 10px;
+		}
+
+#parrafo{
+		text-indent: 50px;
+		margin: 0px 10px 10px 10px;
+		font-size: 14px;
+		color: #333333;
+		letter-spacing: 0px;
+		line-height: 20px;
+		}
+
+.cuerpoindex{
+			width: 100%;
+			height:490px;
+			margin:10px auto 0px auto;
+			position: relative;
+			z-index: 1;
+			opacity: 0.8;
+			background-image: url('../img/fondoindex.png');
+			}
+
+.indexdivtextoexplic{
+					width: 500px;
+					height: 330px;
+					font-family: Tahoma,verdana,arial;
+					margin: auto auto auto 0px;
+					position: relative;
+					top:50px;
+					background-image: url('../img/logo.png');
+					background-repeat: no-repeat;
+					background-position: bottom;
+					}
+
+
+/*PAGINAS INDEX INICIO SECCION*/													
+.formularioseccion{
+					width: 390px;
+					height: 330px;
+					font-family: Tahoma,verdana,arial;
+					font-size: 18px;
+					color:#333333;
+					margin: 0px 0px auto auto;
+					position: relative;
+					top:-280px;
+					right: 0px;
+					left:auto;
+					}
+			
+.divinicioseccion{
+				 width: 350px;
+				 height: 200px;
+				 margin: 0px auto 0px auto;
+				}
+
+
+#labelusuario{
+			 position: relative;
+			 top:10px;
+			 left: auto;
+			 right: 0px;
+			 font-family: Tahoma,verdana,arial;
+			font-size: 15px;
+			}	
+
+
+#usuarioMail{
+			width:350px;
+			height: 30px;
+			font-family: Tahoma,verdana,arial;
+			font-size: 15px;
+			color:#333333;
+			padding-left: 5px;
+			position:relative;
+			top: 10px;
+			margin-right: 0px 0px auto auto;
+			}
+
+
+#labelpassword{
+ 				margin-left: 0px;
+				font-family: Tahoma,verdana,arial;
+				font-size: 15px;
+			}	
+
+#password{
+				width:350px;
+				height: 30px;
+				margin-right: 10px; 
+				padding-left: 5px;
+				font-family: Tahoma,verdana,arial;
+				font-size: 15px;
+				color:#333333;
+				margin-right: 0px 0px auto auto;
+				}
+
+.divregistro{
+			 width: 350px;
+			 height: 85px;
+			 text-align: center;
+			  position: relative;
+			  top:30px;
+			  font-size: 14px;
+			  margin: 10px auto 0px auto;
+			}
+
+
+.botonregistro{
+				width: 350px;
+				height: 35px;
+ 				background-color: #DF013A;
+				 color:white;
+				 font-size: 15px;
+				 font-family: Tahoma,verdana,arial;
+				 margin: 5px auto 0px auto;
+				 border-radius: 3px;
+				letter-spacing: 2px;
+				box-shadow: 0px 1px 2px #333333;
+				}
+
+#botonenviarseccion{
+					width: 350px;
+					height: 35px;
+					letter-spacing: 2px;
+					background-color: #DF013A;
+					box-shadow: 0px 1px 2px #333333;
+					color:white;
+					border-radius: 5px;
+					font-family: Tahoma,verdana,arial;
+					margin: 0px auto 0px auto;
+					font-size: 15px;
+					}
+
+
+/*-- div alerta de error php -*/
+.alertaindex{						
+			width: 335px;
+			height:auto;
+			padding: 10px;
+			font-family: Tahoma,verdana,arial;
+			font-size: 12px;
+			color: #333333;
+			background-color: #F5A9A9;
+			border:1px solid #F78181;
+			position: relative;
+			top: 0px;
+			left: 20px;
+			box-shadow: 1px 2px 2px silver;
+			}
+
+
+/*  filas del cartel de error  separada del error anterior */
+#alertaindexTd{
+				list-style: none;
+				}
+/*-- div alerta de error php -*/
+.alertaindex2{						
+					width: 335px;
+					height:auto;
+				
+					padding: 10px;
+					font-family: Tahoma,verdana,arial;
+					font-size: 12px;
+					color: #333333;
+					background-color: #F5A9A9;
+					border:1px solid #F78181;
+					position: relative;
+					top: 0px;
+					left: 20px;
+					box-shadow: 1px 2px 2px silver;
+		
+					}
+
+
+/*  filas del cartel de error */
+#alertaindexTd2{
+					list-style: none;
+					}
+
+/*  -------------------------------------------------------- pagina de registro----------------------------------------------------------- */
+
+#cuerporegistro{
+				width: 100%;
+				height:450px;
+				margin:10px auto 190px auto;
+				position: relative;
+				z-index: 1;
+				background-image: url('../img/fondoindex.png');
+				opacity: 0.8;
+				}
+
+/* boton vovler */
+#botonvolver{
+			width: 60px;
+			height: 60px;
+			background-image: url('../img/flecha1.png');
+			background-size: cover;		
+			margin-left: 410px;
+			position: relative;
+			top: 30px;
+			}
+
+.boxbotonesregistro{
+					width:600px;
+					height: 45px;
+					position: relative;
+					top: 20px;
+					 margin: 0px auto 0px auto;
+ 					 margin-bottom: 90px;
+					 opacity: 1px;
+					}
+
+#botonregistro{
+				width: 100px;
+				height: 40px;
+				border-radius: 8px;
+				font-size:16px;
+				font-family:Tahoma,verdana,arial;
+				color: white;
+				padding-top: 30px;
+				margin: 0px auto 0px auto;
+				position: relative;
+				top:-12px;
+				background-color:white;
+				box-shadow: 0px 1px 2px #333333;		
+				list-style-type: none;
+				display: block;
+				text-align: center;
+				box-shadow: 0px 1px 2px #333333;
+				}
+
+.formularioregistro{
+					width: 800px;
+					height: 450px;
+					font-family:Tahoma,verdana,arial;
+					opacity: 1;
+					margin:0px auto 0px auto;
+					color:white;
+					font-size: 14px;
+					z-index: 6;
+					padding-left: 10px;
+					}	
+
+#botonenviarregistro{
+					width: 355px;
+					height: 30px;
+				    background-color: gold;
+					color:#333333;
+					font-family: Tahoma,verdana,arial;
+					margin: 5px 0px 5px 5px;
+					box-shadow: 0px 1px 2px #333333;
+					position: relative;
+					top:20px;
+					z-index: 5;
+					}
+
+
+#inputnombreregistro{
+				
+					width: 350px;
+					height: 30px;
+					margin: 5px 0px 5px 5px;
+					color:#333333;
+					padding-left: 5px;
+					font-size: 13px;
+					position: relative;
+					right: 0px;
+		 	 		 }
+
+#inputmailregistro  {
+				
+				width: 350px;
+				height: 30px;
+				margin: 5px 0px 5px 5px;
+				opacity: 1;	
+				color:#333333;
+				padding-left: 5px;
+				font-size: 13px;
+				position: relative;
+				right: 0px;
+		 	  }
+
+
+#PassWord1 {
+			width:350px;
+			height: 30px;
+			margin: 5px 0px 5px 5px;
+			color:#333333;
+			padding-left: 5px;
+			font-size: 13px;
+			}
+
+
+#PassWord2{		
+			padding-left: 5px;
+			width:350px;
+			height: 30px;
+			margin: 5px 0px 5px 5px;
+			color:#333333;
+			font-size: 13px;
+			}
+
+
+#botonlegal{
+			width: 120px;
+			height: 27px;
+			background-color: silver;
+			box-shadow: 1px 1px 1px #333333;
+			color:#333333;
+			border-radius: 3px;
+			}
+
+/*----------------------------------------condiciones legales .php----*/
+
+.condicionLegalbody{
+					width: 100%;
+					height: 350px;
+					opacity: 0.7;
+					background-color: #333333;
+					position: relative;
+					z-index: 1;
+					}
+#divTextolegal{
+				width: 350px;
+				height: auto;
+				padding: 10px;
+				position: relative;
+				z-index: 3;
+				top:-100px;
+				left: 370px;
+				font-family: Tahoma,verdana,arial;
+				font-size: 13px;
+				color:white;
+				}
+/*----------------------------*/
+
+.alertaregistro{						/*-- div alerta de error php -*/
+				width: auto;
+				height:auto;
+				line-height: auto;
+				padding: 10px;
+				font-family: Tahoma,verdana,arial;
+				font-size: 13px;
+				background-color: #F5A9A9;
+				position: relative;
+				top: -358px;
+				left:380px;
+				box-shadow: 1px 1px 5px #333333;
+				float: left;
+				}
+
+/*  filas del cartel de error */
+#alertalistregistro{
+					list-style: none;
+					}
+
+/*  -------------------------------------------------------- pagina perfil -----------------------------------------------------*/
+
+#tituloinicioseccionperfil{
+						width:450px;
+						height: 45px;
+						font-family:Tahoma,verdana,arial;
+						color:#333333;
+						font-size: 40px;
+						font-weight: 5px;
+						text-align: left;
+						margin: 0px auto 0px auto;
+						position: relative;
+						top:120px;
+						}
+
+#h3perftitulo{
+			width: 960px;
+			height: 250px;
+			font-family: Orator Std, sans-serif;
+			font-size: 25px;
+			background-image: url('../img/fondoPerfil.png');
+			color: white;
+			margin-top: -50px;
+			}
+
+
+.cuerpoperfil{
+			width: 900px;
+		 	height:600px;
+			background-color: white;
+		 	 margin:5px auto 160px auto;
+			border-top: 10px solid silver;
+			border-bottom: 10px solid silver;
+		     position: relative;
+		     top:0px;
+			}
+					
+#boxinfoperfil{
+				width:960px;
+				height:430px;
+				margin:10px 0px 0px 10px;
+	  		    padding: 10px;
+				float: left;
+				font-family:Tahoma,verdana,arial;
+				font-size: 13px;
+				color:#333333;
+				border-radius: 7px;
+					}
+
+.imgperfil1{
+			  width:200px;
+			  height:135px;
+			  border-top:5px; 
+			  border-right: 5px;
+			  border-left: 5px;
+			  border-bottom: 30px;
+			  border-color: white;
+			  border-style: solid;
+			  border-radius: 7px;
+			  background-size: cover;
+			  position: relative;
+			  left: -10px;
+			  top:0px;
+			  float: left;
+			  margin-top: 10px;
+			  margin-left: 10px;
+			  margin-right: 15px;
+			  box-shadow: 0px 1px 2px #333333;
+			 }
+
+
+#h3perf{
+		width: 900px;
+		height: 80px;
+		font-family: 'Julius Sans One', sans-serif;
+		font-size: 25px;
+		border-top: 2px solid silver;
+		background-color: #848484;
+		color: white;
+		margin: 0px auto 0px auto;
+		line-height: 80px;
+		text-align: center;
+		position: relative;
+		left: -50px;
+		}
+
+.imgproducto1{
+			 width:200px;
+			  height:135px;
+			  border-top:5px; 
+			  border-right: 5px;
+			  border-left: 5px;
+			  border-bottom: 5px;
+			  border-color: white;
+			  border-style: solid;
+			  border-radius: 7px;
+			  background-size: cover;
+			  margin-top: 15px;
+			  margin-left: 10px;
+			  box-shadow: 0px 1px 2px #333333;
+			}
+
+.vernombre  {
+			width: 575px;
+			height: 45px;
+			margin-left: 230px; 
+			line-height: 45px;
+			font-size: 20px;
+			color:#333333;
+			background-color: #D8D8D8;
+		 	  }
+
+.vermail{
+		width: 575px;
+		height: 45px;
+		margin-left: 230px;
+		line-height: 45px;
+		font-size: 20px;
+		color:#333333;
+		background-color: #D8D8D8;
+		}
+
+ .verdescripcion{							
+				width: 290px;
+				height:45px;
+				font-size: 40px;
+				margin: 2px 0px 5px 5px;
+				border-radius: 5px;
+				color:#333333;
+				text-align: left;
+				position: relative;
+				padding-left: 2px;
+				}
+
+#textPerfil{
+		   font-size: 18px;
+		   text-align: center;
+			}
+
+
+#tituloperfil{
+			width:650px;
+			height: 50px;
+			font-family:Tahoma,verdana,arial;
+			font-size: 45px;
+			position:relative;
+			bottom: 0px;
+			color:#848484;	
+			}
+
+
+#inputprofesion{
+				font-family: verdana, arial;
+				font-size: 20px;
+				color:#848484;
+				text-align: center;
+				margin: 5px 0px 5px 5px;
+				}
+
+
+
+/*  --------------------------------------------------------pagina de PUBLICAR PRODUCTO ------------------------------------------------*/
+
+/*    parrafo de notificacion de guardado con exito */
+#spannotificacion{				
+				width: 290px;
+				height: 22px;
+				position: relative;
+				top: 5px;
+				background-color:#9FF781;
+				border: 1px solid #3ADF00;
+				opacity: 0.9;
+				border-radius: 5px;
+				text-align: center;
+				}						
+
+
+#buttonMod{
+			width: 60px;
+			height: 25px;
+			background-color: red;
+			color:white;
+			}
+
+
+/*--titulo--*/
+#h3tituloPubliPro{
+				width: 960px;
+				height: 250px;
+				font-family: Orator Std, sans-serif;
+				font-size: 25px;
+				background-image: url('../img/fondopublicarProducto.png');
+				color: white;
+				margin-top: 0px;
+				}
+
+.cuerpoproducto{
+				width: 900px;
+			 	height:600px;
+				border-top: 1px solid silver;
+				border-bottom: 1px solid silver;
+			 	 margin:0px auto 130px auto;
+			     background-color: white;
+			     float: left;
+			     position: relative;
+			     top:0px;
+	     		}
+
+.formulariopublicarproducto{
+							width:600px;
+							height:380px;
+							margin:10px 0px 0px 10px;
+							 padding: 10px;
+							 position: relative;
+							 left: 20px;
+							 float: left;
+							 font-family:Tahoma,verdana,arial;
+							font-size: 13px;
+							color:#333333;
+							border-radius: 7px;
+							}			
+
+.imgproductopublicado{
+					 width:200px;
+					  height:135px;
+					  border-top:5px; 
+					  border-right: 5px;
+					  border-left: 5px;
+					  border-bottom: 5px;
+					  border-color: white;
+					  border-style: solid;
+					  border-radius: 7px;
+					  background-size: cover;
+					  background-position: center;
+					  background-repeat: no-repeat;
+					  margin-top: 10px;
+					  margin-bottom: 10px;
+					  box-shadow: 0px 1px 2px #333333;
+					}
+
+
+.imgpublicar{
+		  	 width:200px;
+			  height:135px;
+			  border-top:2px; 
+			  border-right: 2px;
+			  border-left: 2px;
+			  border-bottom: 30px;
+			  border-color: white;
+			  border-style: solid;
+			  border-radius: 7px;
+			  background-size: cover;
+			  margin-top: 10px;
+			  box-shadow: 0px 1px 2px #333333;
+			  float: left;
+			 }
+
+
+#botonguardar{
+				width: 400px;
+				height: 45px;
+				position: relative;
+				top:10px;
+				margin-bottom: 10px;
+				background-color:#00BFFF;
+				color:white;
+				}
+
+#botonguardar2{
+				width: 400px;
+				height: 45px;
+				position: relative;
+				top:10px;
+				background-color:white;
+				color:#333333;
+				}
+
+#botoneditarproducto{
+					width: 400px;
+					height: 45px;
+					background-color:#00BFFF;
+					color:white;
+					position: relative;
+					top: 5px;
+					font-family: Tahoma,verdana,arial;
+					margin: 0px auto 0px auto;
+					border-radius: 7px;
+					}
+
+.divbotonexaminareditarproduct{
+								width: 200px;
+								height: 10px;
+								position: relative;
+								top: 0px;
+								left: 5px;
+								}
+
+
+/*----input descripcion producto--*/
+#descripcionproducto{							
+					width: 585px;
+					height: 45px;
+					font-size: 16px;
+					border: 1px solid silver;
+					padding-left: 10px;
+					font-family: Tahoma,verdana,arial;
+					margin: 5px 0px 0px 0px;
+					}
+
+#botonguardarproducto{
+					width: 400px;
+					height: 45px;
+					background-color: #00BFFF;
+					color:white;
+					font-family: Tahoma,verdana,arial;
+					margin: 5px 0px 10px 0px;
+					}
+
+/*-- div alerta de error php -*/
+.alertapublicprod{						
+				width: 580px;
+				height:auto;
+				line-height: auto;
+				padding: 5px;
+				font-family: Tahoma,verdana,arial;
+				font-size: 12px;
+				color: #333333;	
+				background-color: #F5A9A9;
+				border:1px solid #F78181;
+				position: relative;
+				top: 0px;
+				left: 0px;
+				box-shadow: 1px 2px 2px silver;
+				}
+
+
+/*  filas del cartel de error */
+#alertalispubliproduc{
+						list-style: none;
+						}
+														/*---- pagina de modificar producto --*/
+
+
+/*---div que envuelve los botones de archivo y guardar imagen--*/
+.divbotonexaminarmodifi{
+						width: 200px;
+						height: 10px;
+						position: relative;
+						top: 0px;
+						left: 5px;
+						}
+
+
+/*--titulo--*/
+#h3tituloEditarPro{
+				width: 960px;
+				height: 250px;
+				font-family: Orator Std, sans-serif;
+				font-size: 25px;
+				background-image: url('../img/fondoEditarrProducto.png');
+				color: white;
+				margin-top: 0px;
+				}
+
+.divizq{
+		width:355px;
+		height:440px;
+		margin:10px 0px 0px 10px;
+		 padding-left: 5px;
+		float: left;
+		 font-family:Tahoma,verdana,arial;
+		font-size: 13px;
+		color:#333333;
+		border-radius: 7px;
+		}
+
+.divderecho{
+			width:240px;
+			height:100px;
+			margin:0px 0px 0px 10px;
+			text-align: center;
+			 padding-left: 5px;
+			float: left;
+			 font-family:Tahoma,verdana,arial;
+			font-size: 13px;
+			color:#333333;
+			border-radius: 7px;
+			background-color: #C8FE2E;
+			}
+
+/*-- div alerta de error php -*/
+.alertaeditarproduc{						
+					width: 580px;
+					height:auto;
+					line-height: auto;
+					padding: 5px;
+					font-family: Tahoma,verdana,arial;
+					font-size: 12px;
+					color: #333333;
+					background-color: #F5A9A9;
+					border:1px solid #F78181;
+					position: relative;
+					top: -30px;
+					left: 5px;
+					box-shadow: 1px 2px 2px silver;
+					}
+
+
+/*  filas del cartel de error */
+#alertalieditproduc{
+					list-style: none;
+					}
+
+/*---gardado con exito--*/
+#Proguardado{
+			width: 200px;
+			color:#333333;
+			font-family: Tahoma,verdana,arial;
+			font-size: 12px;
+			padding: 5px;
+			background-color: #E1F5A9;
+			margin: 15px auto auto 5px; 
+
+			}
+
+
+/*  --------------------------------------------------------pagina de BUSCAR  NUEVOS CONTACTOS ------------------------------------------------*/
+
+#tituloinicioseccionindex{
+						width:450px;
+						height: 45px;
+						font-family: 'PT Sans', sans-serif;
+						color:#333333;
+						font-size: 40px;
+						font-weight: 5px;
+						text-align: left;
+						margin: 0px auto 0px auto;
+						position: relative;
+						top:120px;
+						z-index: 3;
+						}
+
+
+.cuerponuevocontacto{
+					width: 960px;					
+				 	height:auto;
+				 	margin:-15px auto 60px auto;
+			     	border-radius: 10px;
+			     	position: relative;
+			     	top:0px;
+					}
+
+
+.dicenvuelveinputyboton{
+					width: 960px;
+					height: 250px;
+					margin:0px auto 0px auto;
+					background-image: url('../img/fondobuscacontacto.png');			
+					}
+
+/*---input para buscar los contactos --*/
+#inputbuscadornuevoscontactos{
+							width: 350px;
+							height: 50px;
+							font-size: 16px;
+							border-radius: 5px;
+							border: 3px solid #F2F2F2;
+							font-family: Tahoma,verdana,arial;
+							margin: 150px 0px 0px 250px;
+							padding-left:15px;
+							}
+/*--boton buscar--*/
+#botonbuscarnuevos{
+					width: 55px;
+					height: 55px;
+					color:#333333;
+					background-image: url('../img/lupa.jpg');		
+					margin: 15px auto 0px 5px;
+					border-radius: 5px;
+					}
+
+
+/*boton añadir acontacto*/
+#agregar{
+		width: 100px;
+		height: 100px;
+		background-image: url('../img/botoncont.png');
+		color:white;
+		border-radius: 7px;
+		}
+
+
+.boxinfolistadocontactosbuscador{
+								width:545px;
+								height:140px;
+								margin:20px auto 0px 0px;
+								border-radius: 5px;
+								background-color: green;
+								}
+
+#imgperfillistadocontactobuscador{
+								  width:150px;
+								  height:85px;
+								  background-image:url("../img/perfilhombre.jpg"); 
+								  border-radius: 5px 5px 5px 5px; 
+								  float: left;
+								  }
+
+#divgrandecontactos{
+					width: 830px;
+					margin: 0px auto 200px auto;
+					}
+
+#divcontacto{
+			   width: 620px;
+			   height: 100px;
+			   font-family: Tahoma,verdana,arial;
+			   font-size: 13;
+			   border-radius: 5px 5px 5px 5px;
+			   margin: 0px auto 0px auto;
+	   		}
+
+#divcontactotdimg{
+				   width: 100px;
+				   height: 100px;
+	 			   margin: 0px auto 0px 0px;
+				   }
+
+
+#divcontactotdcentro{
+				    width: auto;
+				    height: 70px;
+	 			 	border-top: 1px solid silver;
+				    font-family:Tahoma,verdana,arial;
+				    font-size: 13;
+				    padding-left: 5px;
+				    padding-right: 5px;
+				    margin: 0px auto 0px auto;
+			 	  }
+
+#divcontactotdboton{
+				   width: 100px;
+				   height: 100px;
+	 			   font-family:Tahoma,verdana,arial;
+				   font-size: 13;
+				   margin: 0px 0px 0px auto;
+			  	 }
+
+#imgcontacto{
+			  width: 100px;
+			  height: 100px;
+			  border-radius: 5px;
+			}
+
+
+/*------------ALERTA MESAJE--*/
+.alertabuscacontac{						
+					width: 334px;
+					height:auto;
+					padding: 15px;
+					font-family: Tahoma,verdana,arial;
+					font-size: 13px;
+					float: left;
+					background-color: #F5A9A9;
+					border:1px solid #F78181;
+					position: relative;
+					top: 0px;
+					left:250px;
+					box-shadow: 1px 2px 2px #333333;
+					opacity: 0.8;
+				}
+
+#alertabuscacontaclI{
+					list-style: none;
+					}
+
+/* ------------------------------------------pagina lista de contactos --------------------------------------------------*/
+
+.cuerpolistadocontacto{
+						width: 960px;
+					 	height:auto;
+						background-color:white;	 	
+				 	 	margin:-15px auto 60px auto;
+				     	border-radius: 10px;
+				     	position: relative;
+				     	top:0px;
+						}
+
+.dicenvuelveinputyboton1{
+						width: 960px;
+						height: 250px;
+						margin:0px auto 20px auto;
+						background-image: url('../img/fondolistacontacto.png');			
+						}
+
+
+#tablagrandecontactos{
+					width: 830px;
+					margin: 0px auto 200px auto;
+					}
+
+#eliminar{
+		width: 110px;
+		height: 28px;
+		color:#333333;
+		position: relative;
+		top:48px;
+		font-size: 13px;
+		font-family: Tahoma,verdana,arial;
+		}
+
+#divcontacto{
+		   width: 620px;
+		   height: 100px;
+		   font-family: Tahoma,verdana,arial;
+		   font-size: 13;
+		   border-radius: 5px 5px 5px 5px;
+		   margin: 0px auto 0px auto;
+	   		}
+
+#divcontactotdimg{
+			   width: 80px;
+			   height: 100px;
+ 			   margin: 0px auto 0px 0px;
+			   }
+
+
+#divcontactotdcentro1{
+					   width: auto;
+					   height: 100px;
+		 				border-bottom: 1px solid silver;
+					   font-family:Tahoma,verdana,arial;
+					   font-size:13;
+					   padding-left: 5px;
+					   padding-right: 5px;
+					   margin: 0px auto 0px auto;
+			  		 }
+
+#divcontactotdboton{
+					   width: 80px;
+					   height: 100px;
+		 			   margin: 0px 0px 0px auto;
+			   		}
+
+
+
+#imgcontacto{
+			  width: 100px;
+			  height: 100px;
+			  border-radius: 5px;
+			}
+
+
+#divcontactotdbotonlist{
+					    width: 100px;
+					    height: 100px;
+		 				background-position: center;
+						background-image: url('../img/Imgbotoneliminar.png');
+						background-repeat: no-repeat;
+						background-position: center;	
+					    margin: 0px 0px 0px auto;
+			  			}
+
+
+/*  --------------------------------------------------------pagina de BUSCAR productos ------------------------------------------------*/
+
+/*--din otificaicon de error php --*/	
+.alertabuscarproduc{
+					width: 200px;
+					height: 100px;
+					background-color: red;
+					}
+
+.alertabuscproduc{
+				width: 700px;
+				height:auto;
+				line-height: auto;
+				padding: 10px;
+				font-family: Tahoma,verdana,arial;
+				font-size: 12px;
+				background-color: #F5A9A9;
+				border:1px solid #F78181;
+				position: relative;
+				top: 0px;
+				left: 0px;
+				box-shadow: 1px 2px 2px silver;
+				margin: 0px auto 0px auto;
+				}
+
+#alertabuspro{
+			list-style: none;
+			}
+
+#tituloinicioseccionindex{
+						width:450px;
+						height: 45px;
+						font-family: Tahoma,verdana,arial;
+						color:#333333;
+						font-size: 40px;
+						font-weight: 5px;
+						text-align: left;
+						margin: 0px auto 0px auto;
+						position: relative;
+						top:120px;
+				    	}
+
+.cuerpobuscarproducto{
+						width: 960px;
+					 	height:auto;
+					 	background-color: white;
+					 	margin:5px auto 110px auto;
+				     	border-radius: 10px;
+				     	position: relative;
+				     	top:0px;
+					}
+
+.boxbuscadorprocut{
+					width:545px;
+					height:140px;
+					margin:20px auto 0px 0px;
+					border-radius: 5px;
+					}
+
+
+.divconbotones{
+				width: 960px;
+				height: 250px;
+				margin:0px auto 0px auto;
+				background-image: url('../img/fondobuscaproducto.png');	
+				}
+
+
+/*---input para buscar los PRODUCTOS --*/
+#inputbuscador{
+				width: 350px;
+				height: 47px;
+				font-size: 16px;
+				border-radius: 5px;
+				border: 3px solid #F2F2F2;
+				font-family: Tahoma,verdana,arial;
+				padding-left: 10px;			
+				margin: 160px 0px 5px 190px;
+			}
+
+
+/*  boton de buscar*/
+#botonbuscar1{								
+				width: 55px;
+				height: 55px;
+				color:#333333;
+				background-image: url('../img/lupa3.png');	
+				margin: 0px auto 0px 5px;
+				position: relative;
+				top: 0px;
+			  }
+
+
+/*--boton enviar mensaje--*/
+#agregarpro{
+			width: 70px;
+			height: 20px;
+			font-family: Tahoma,verdana,arial;
+			font-size: 13px;
+			position: relative;
+			top: 50px;
+			background-color:#81DAF5;
+			margin:0px auto 0px 30px;
+			text-align: center;
+			box-shadow: 1px 2px 1px silver;
+			}
+
+
+
+.resultadoproductos{										/*    div de lista de productos */
+					width: 820px;
+					height: auto;
+					float: left;
+					margin-left: 40px;
+					margin-bottom: 130px;
+					position: relative;
+					top: 10px;
+					}			
+
+
+.tabresultadobusqueda{										/* tabla lista de productos*/
+					width: 820px;
+					float: left;
+					font-size: 16px;
+					}
+
+/*  id de la descripcion del`producto del resultado de la busqueda */
+#spanproduct{
+			height: 20px;
+			position: relative;
+			top: 5px;
+			background-color: yellow;
+			box-shadow: 1px 2px 1px silver;
+			padding-left: 10px;
+			}
+
+
+#divresultados{
+			text-align: center;
+			width: 500px;
+			height: 30px;
+			margin: 0px auto 0px auto;
+			border-radius: 7px;
+			color: white;
+			}
+
+#divcontacto{
+			   width: auto;
+			   height: 100px;
+			   font-family: Tahoma,verdana,arial;
+			   font-size: 10;
+			   border-radius: 5px 5px 5px 5px;
+			   margin: 0px auto auto auto;
+			}
+
+
+#divproductoimg{
+			   width: 100px;
+			   height: auto;
+ 			   margin: 0px auto auto 0px;
+			   }
+
+
+#imgcontacto{
+			  width: 120px;
+			  height: 120px;
+			  border-radius: 5px;
+  			}
+
+
+#imgproducto{
+			  width: 120px;
+			  height: 120px;
+			  border-radius: 5px;
+  			}
+  
+#divcontactotdimg{
+				   width: 100px;
+				   height: 100px;
+				   margin: 0px auto auto 0px;
+				   }
+
+
+#divcontactotdcentrobuscpro{
+						   width: auto;
+						   height: 100px;
+			 			   border-top: 1px solid silver;
+			 			   border-bottom: 1px solid silver;
+						   font-family:Tahoma,verdana,arial;
+						   font-size: 12px;
+						    padding-left:10px;
+						    padding-right:10px;
+						    background-color: white;
+						   	margin: 0px auto 0px auto;
+			 				}
+
+#divcontactotdboton{
+				 	 width: 130px;
+				  	 height: 100px;
+	 			 	 background-image: url('../img/sobre.png');
+					background-repeat: no-repeat;
+				 	background-position: center;	
+				     margin: 0px 0px 0px auto;
+			   		}
+
+/*  --------------------------------------------------------pagina de editar perfil ------------------------------------------------*/
+
+#buttonMod{
+			width: 60px;
+			height: 25px;
+			background-color: #333333;
+			color:white;
+	  	}
+
+
+.generaleditar{
+				width: 960px;
+				height:710px;
+				margin:0px auto 180px auto;
+				position: relative;
+				top:0px;
+				z-index: 100;
+				}
+
+#h3editperf{
+			width: 960px;
+			height: 250px;
+			font-family: Orator Std, sans-serif;
+			font-size: 25px;
+			background-image: url('../img/fondoeditarPerfil.png');
+			color: white;
+			margin-top: 30px;
+			}
+		
+
+.formularioeditarperfil{
+						width:960px;
+						height:270px;
+						margin:10px auto 100px auto;
+						background-color: #81DAF5;
+						opacity: 0.95;
+						 padding: 15px;
+						 position: relative;
+						 font-family:Tahoma,verdana,arial;
+						font-size: 13px;
+						color:#333333;
+						}			
+
+.imgeditarperfil{
+				  width:395px;
+				  height:200px;
+				  border-top:2px; 
+				  border-right: 2px;
+				  border-left: 2px;
+				  border-bottom: 30px;
+				  border-color: white;
+				  border-style: solid;
+				  border-radius: 7px;
+					background-size: cover;			
+					background-repeat: no-repeat;
+					background-position: center;
+					box-shadow: 0px 1px 2px #333333;
+					margin: 20px auto 0px auto;
+					position: relative;
+					left: 30px;
+				 }
+
+
+/*---div que envuelve los botones de examinar y guardar-- */
+.divbotonexaminar{
+					width: 960px;
+					height: 160px;
+					position: relative;
+					margin: 10px auto 50px auto;
+					padding: 15px;
+				}
+
+#h2{
+	width: 690px;
+	height: 45px;
+	position: relative;
+	left: 0px;
+	color: #848484;
+	padding-left: 10px;
+	font-size: 45px;
+	letter-spacing: 1px;
+	font-family: Kalinga,verdana,arial;
+	margin: 0px auto 20px auto;
+	letter-spacing: 2px
+	}
+
+
+/*---boton examinar--*/				
+#botonarchivoeditarperfil{
+							margin: 10px auto 10px 300px;
+							}
+
+
+/*  -- boton guardar IMG --*/
+#botonguardareditar{
+					width: 395px;
+					height: 45px;
+					margin: 10px auto 10px auto;
+					position: relative;
+					font-size: 17px;
+					background-color: #FE9A2E;
+					color:white;
+					position: relative;
+					left: 300px;
+					}
+
+#textareaeditarperfil{  
+					  margin: 5px 0px 5px 5px;
+					  resize:none;
+					  padding-left: 2px;
+					  color:#A4A4A4;
+					  text-align: left;
+					  }
+/*caja que abarca todo el texto de la pag. editar perfil*/
+
+#inputnombre  {
+				width: 385px;
+				height: 45px;
+				position: relative;
+				left: 300px;
+				margin: 5px 0px 5px 0px;
+				font-size: 17px;
+				color:#6E6E6E;
+				padding-left:10px;
+		 	  }
+
+#inputmail{
+			width: 385px;
+			height: 45px;
+			position: relative;
+			left: 300px;
+			margin: 5px 0px 5px 0px;
+			font-size: 17px;
+			color:#6E6E6E;
+			text-align: left;
+			padding-left: 10px;
+			}
+
+
+/*--boton de guardar de nombre y mail */
+#botonenviareditarperfil{
+						width: 395px;
+						height: 45px;
+						background-color: #FE9A2E;
+						color:white;
+						font-family: Tahoma,verdana,arial;
+						margin: 0px auto 20px 0px;
+						text-align: center;
+						font-size: 17px;
+						position: relative;
+						left: 300px;
+						}
+
+/*-----texto  nombre y mail --*/
+#text{
+		font-size: 16px;
+		position: relative;
+		left: 300px;
+		}
+
+.alertaerror{
+			width: 270px;
+			height: auto;
+			}
+
+/*-- div alerta de error php -*/
+.alertaeditarperf{						
+				width: auto;
+				height:auto;
+				line-height: auto;
+				padding: 5px;
+				font-family: Tahoma,verdana,arial;
+				font-size: 12px;
+				background-color: #F5A9A9;
+				border:1px solid #F78181;
+				position: relative;
+				top: 0px;
+				left: 0px;
+				box-shadow: 1px 2px 2px silver;
+				}
+
+
+/*  filas del cartel de error */
+#alertalist{
+			list-style: none;
+			}
+
+
+/*cartel se guardo con exito*/
+#cambguard{
+			width: 100%;
+			color:#333333;
+			font-family: Tahoma,verdana,arial;
+			font-size: 12px;
+			padding: 5px;
+			background-color: #E1F5A9;
+			margin: 15px auto auto 5px; 
+
+			}
+
+.alertaeditarperfx{
+					width: auto;
+					height:auto;
+					line-height: auto;
+					padding: 5px;
+					font-family: Tahoma,verdana,arial;
+					font-size: 12px;
+					position: relative;
+					top: 0px;
+					left: 0px;
+					box-shadow: 1px 2px 2px silver;
+					background-color: #D8D8D8;
+					border: 1px solid red;
+					}
+
+/*   -------------------------------------------------------- pagina de CONTACTO   --------------------------------------------------------*/
+
+.generalcontacto{
+				width: 960px;
+				height: auto;
+				background-color: white;
+				margin: 0px auto 0px auto;
+				}
+
+#h3Contacto{
+			width: 960px;
+			height: 250px;
+			font-family: Orator Std, sans-serif;
+			font-size: 25px;
+			background-image: url('../img/fondoContactar.png');
+			color: white;
+			margin-top: 40px;
+			}
+
+
+.cuerpocontacto	{
+				width: 100%;
+				height: 360px;
+				position: relative;
+				z-index: 10;
+				background-color: red;
+				}
+
+
+
+.formulariocontacto{
+				     width:380px;
+				     height:380px;
+				     font-family: Tahoma,verdana,arial;
+				     font-size: 13px;
+				     position:relative;
+				     left: 0px;
+				     z-index:41;
+					color:white;
+				     margin:20px auto 30px 0px;
+				     padding-top: 20px;								/*formulario de la pagina de contacto*/
+				     padding-left:20px;
+				     text-align:left;
+				 	float: left;	     
+				   background-color:#585858;
+				    opacity: 0.8;
+				    }
+
+
+#inputnombrecontac  {
+					margin: 5px 0px 5px 0px;
+					width: 350px;
+					height: 35px;
+					padding-left: 10px;
+			 	    }
+
+#inputmailcontac{
+				margin: 5px 0px 5px 0px;
+				width:350px;
+				height: 35px;
+				padding-left: 10px;
+				}
+
+#inputcomentarioscontac{
+						margin: 5px 0px 5px 0px;
+						width:350px;
+						height: 100px;
+						resize: none;
+						padding-left: 10px;
+						padding-top: 5px;
+						}
+
+
+.direccionformulariocontac{
+							width: 920px;
+							height: 75px;
+							background-color: #585858;
+							opacity: 0.9;
+							background-size: cover;				    		
+				    		position: relative;
+				    		top:0px;
+				    		font-family: Tahoma,verdana,arial;
+				    		opacity: 0.9;
+				    		padding: 20px 20px 20px 20px;
+				    		font-size: 15px;
+							color: #81DAF5;
+				    		margin:30px auto 130px auto;
+				    		text-align: center;
+							}
+
+.alerta{						/*-- div alerta de error php -*/
+		width: auto;
+		height:auto;
+	
+		padding: 20px;
+		font-family: Tahoma,verdana,arial;
+		font-size: 13px;
+		float: left;
+		background-color: #F5A9A9;
+		border:1px solid #F78181;
+		position: relative;
+		top: 20px;
+		left: 10px;
+		box-shadow: 1px 2px 2px silver;
+		opacity: 0.8;
+		
+		}
+
+#alertalist{
+			list-style: none;
+			}
+
+
+
+/*---div envuelve los botones de redes sociales en footer--*/
+
+.divbotonesfooter{
+					width: 960px;
+					height: 70px;
+					margin: 0px auto 0px auto;
+					}
+
+
+/*---div mas pequeño envuelve los botones de redes sociales en footer--*/
+.divbotonesfootermini{
+					width: 300px;
+					height: 70px;
+					margin: 0px 0px 0px auto;
+					
+				}
+
+#botonface{
+		   position:relative;
+		   top:10px;
+		   right:50px;
+		   z-index:69;
+		   float:left;	
+		   margin-left: 20px;						/*icono face*/
+
+		  -ms-transition:transform 0.5s;
+		  -webkit-transition:transform 0.5s;
+		  -moz-transition:transform 0.5s;
+		  -o-transition:transform 0.5s;
+		  }
+
+#botonface:hover{
+				transform:scale(1.05,1.05);
+
+				  -moz-transform:scale(1.05,1.05);
+				  -ms-transform:scale(1.05,1.05);
+				  -web-kit-transform:scale(1.05,1.05);
+				  -o-transform:scale(1.05,1.05);
+				}				    
+
+#botontwitter{
+		      position:relative;
+		      top:10px;
+		      right:60px;
+	  	      float:left;
+		      z-index:71;
+		      margin-left: 20px;
+		      -ms-transition:transform 0.5s;   				/*icono de tw*/
+		      -webkit-transition:transform 0.5s;
+		      -moz-transition:transform 0.5s;
+		      -o-transition:transform 0.5s;
+	  	    }
+
+#botontwitter:hover{
+				    transform:scale(1.1,1.1);
+				   -moz-transform:scale(1.05,1.05);
+				   -ms-transform:scale(1.05,1.05);
+				   -web-kit-transform:scale(1.05,1.05);
+				   -o-transform:scale(1.05,1.05);
+				  }
+
+
+#botonlinkedin{
+		       position:relative;
+		       top:10px;
+		       right:70px;
+	 	       z-index:72;
+		       float:left;	
+		       margin-left: 20px;							/*icono de linked*/
+
+		      -ms-transition:transform 0.5s;
+		      -webkit-transition:transform 0.5s;
+		      -moz-transition:transform 0.5s;
+		      -o-transition:transform 0.5s;
+	 	      }
+
+#botonlinkedin:hover{
+				     transform:scale(1.1,1.1);
+
+				  -moz-transform:scale(1.05,1.05);
+				  -ms-transform:scale(1.05,1.05);
+				  -web-kit-transform:scale(1.05,1.05);
+				  -o-transform:scale(1.05,1.05);
+					}
+
+
+#mapa{
+		width: 960px;
+		height: 350px;
+		
+		}
+
+#botonenviarcontac {
+					width: 360px;
+					height: 40px;
+					background-color: #A4A4A4;
+					margin: 10px auto 7px auto;
+					font-size: 16px;
+					}
+
+
+#botonresetearcontac{
+					width: 360px;
+					height: 40px;
+					background-color: #A4A4A4;
+					margin: 0px auto 5px auto;
+					font-size: 16px;
+					}
+
+
+/* -------------------------------------*/
+
+
+a {
+ 	text-decoration: none;
+    display: block;
+    }
+
+ a:visited{
+			color: white;
+			  text-decoration: none;
+			  display: block;
+			   }  
